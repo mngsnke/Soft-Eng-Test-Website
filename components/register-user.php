@@ -8,13 +8,16 @@
                 <input type="text" class="form-control" id="lname" placeholder="Last Name" name="lname">
             </div>
             <div class="form-group">
+                <input type="number" class="form-control" id="age" placeholder="Age" name="age">
+            </div>
+            <div class="form-group">
                     <input type="email" class="form-control" id="email" placeholder="Email" name="email">
             </div>
             <div class="form-group">
                     <input type="text" class="form-control" id="pnumber" placeholder="Phone number" name="pname">
             </div>
             <div class="form-group">
-                    <textarea id="about" placeholder="About you" name="about" class="form-control" style="height:100px;"></textarea>
+                    <textarea id="about" placeholder="About you" name="about" class="form-control" style="height:60px;"></textarea>
             </div>
             <button type="submit" class="btn btn-success">Submit</button>
             <a style="margin-left: 625px;" href="#!">Log in</a>
