@@ -1,13 +1,12 @@
 <?php
 function Connect(){
-	$host = "localhost";
-	$user = "user";
-	$password = "";
-	$dbname = "softeng";
-	$connect = new mysqli($host,$user,$password,$dbname) or die("Connection Failure: %s\n". $connect->error);
-	return $connect;
+  $host = "localhost";
+  $root = "root";
+  $password = "";
+  $dbname = "soft_eng";
+  $connect = new mysqli($host,$root,$password,$dbname) or die("Connection Error: " . $connect->error);
 }
 function Disconnect($connect){
-	$connect->close();
+  $connect->close();
 }
-?>
+ ?>

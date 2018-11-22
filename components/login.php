@@ -1,6 +1,6 @@
 <div class="card" style="width:500px;height:300px;margin-top:20%;padding:20px;background-color: #fffa91">
     <h1 class="mx-auto">Log In</h1><br>
-        <form action="php/login.php">
+        <form action="php/login.php" method="post">
             <div class="form-group">
                 <input type="email" class="form-control" id="email" placeholder="Email" name="email-login">
             </div>

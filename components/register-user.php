@@ -1,6 +1,6 @@
-<div class="card" style="width:800px;height:500px;margin-top:20%;padding:20px;background-color: #fffa91">
+<div class="card" style="width:100%;height:500px;margin-top:20%;padding:20px;background-color: #fffa91">
     <h1 class="mx-auto">Sign up now</h1><br>
-        <form action="php/register.php">
+        <form action="php/register.php" method="POST">
             <div class="form-group">
                 <input type="text" class="form-control" id="fname" placeholder="First Name" name="fname">
             </div>
@@ -14,12 +14,12 @@
                     <input type="email" class="form-control" id="email" placeholder="Email" name="email">
             </div>
             <div class="form-group">
-                    <input type="text" class="form-control" id="pnumber" placeholder="Phone number" name="pname">
+                    <input type="text" class="form-control" id="pnumber" placeholder="Phone number" name="pnumber">
             </div>
             <div class="form-group">
                     <textarea id="about" placeholder="About you" name="about" class="form-control" style="height:60px;"></textarea>
             </div>
             <button type="submit" class="btn btn-success">Submit</button>
-            <a style="margin-left: 625px;" href="#!">Log in</a>
+            <a style="text-align: right" href="#!">Log in</a>
         </form>
 </div>
